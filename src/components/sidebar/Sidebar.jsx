@@ -45,12 +45,12 @@ const Sidebar = () => {
               <span>Hotels</span>
             </li>
           </Link>
-          <li>
-            <CreditCardIcon className="icon" />
-            <Link to="/rooms" style={{ textDecoration: "none" }}>
+          <Link to="/rooms" style={{ textDecoration: "none" }}>
+            <li>
+              <CreditCardIcon className="icon" />
               <span>Rooms</span>
-            </Link>
-          </li>
+            </li>
+          </Link>
           <li>
             <LocalShippingIcon className="icon" />
             <span>Delivery</span>
