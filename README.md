@@ -31,6 +31,6 @@ Example for Cloudinary API endpoint https://api.cloudinary.com/v1_1/cloud_name
 
 
 
-Add proxy url in package.json
+Add backend api url in package.json
 
 `"proxy": "http://localhost:8800/api"`
