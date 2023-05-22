@@ -25,3 +25,6 @@ Add `REACT_APP_CLOUDINARY_BASE_URL` in :
 * `src\pages\new\New.jsx`
 * `src\pages\newHotel\NewHotel.jsx`
 * `src\pages\newRoom\NewRoom.jsx`
+
+
+Example for Cloudinary API endpoint https://api.cloudinary.com/v1_1/cloud_name
