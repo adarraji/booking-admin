@@ -21,7 +21,7 @@ To run the application
 
 ## Environmental Variables
 
-Add `REACT_APP_CLOUDINARY_BASE_URL` in :
+Add Cloudinary base url `REACT_APP_CLOUDINARY_BASE_URL` in :
 * `src\pages\new\New.jsx`
 * `src\pages\newHotel\NewHotel.jsx`
 * `src\pages\newRoom\NewRoom.jsx`
