@@ -20,7 +20,7 @@ const New = ({ inputs, title }) => {
     data.append("upload_preset", "upload");
     try {
       const uploadRes = await axios.post(
-        "https://api.cloudinary.com/v1_1/lamadev/image/upload",
+        `${process.env.REACT_APP_CLOUDINARY_BASE_URL}/image/upload`,
         data
       );
 
