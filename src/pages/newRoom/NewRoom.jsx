@@ -28,7 +28,7 @@ const NewRoom = () => {
     }
   };
 
-  console.log(info)
+
   return (
     <div className="new">
       <Sidebar />
@@ -67,9 +67,9 @@ const NewRoom = () => {
                   {loading
                     ? "loading"
                     : data &&
-                      data.map((hotel) => (
-                        <option key={hotel._id} value={hotel._id}>{hotel.name}</option>
-                      ))}
+                    data.map((hotel) => (
+                      <option key={hotel._id} value={hotel._id}>{hotel.name}</option>
+                    ))}
                 </select>
               </div>
               <button onClick={handleClick}>Send</button>
