@@ -18,7 +18,7 @@ const Datatable = ({ columns }) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/${path}/${id}`);
+      await axios.delete(`${process.env.REACT_APP_BACKEND_BASE_URL}/${path}/${id}`);
       setList(list.filter((item) => item._id !== id));
     } catch (err) { }
   };

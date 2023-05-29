@@ -31,7 +31,7 @@ const New = ({ inputs, title }) => {
         img: url,
       };
 
-      await axios.post("/auth/register", newUser);
+      await axios.post(`${process.env.REACT_APP_BACKEND_BASE_URL}/auth/register`, newUser);
     } catch (err) {
       console.log(err);
     }
