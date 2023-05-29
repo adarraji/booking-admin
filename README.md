@@ -64,6 +64,6 @@ You can see the website [here](https://react-booking-admin.netlify.app/)
 
 
 ## Deploy status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8d760479-08e8-4e3c-9463-0d5129f2f718/deploy-status)](https://app.netlify.com/sites/react-booking-12/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3759c1b2-c3b1-4b71-8d82-ced41f45ff57/deploy-status)](https://app.netlify.com/sites/react-booking-admin/deploys)
 
 ## Screenshots
