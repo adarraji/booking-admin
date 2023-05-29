@@ -21,7 +21,6 @@ To run the application
 * CSS
 * Javascript
 * React
-* Material-UI
 * React Router
 * React Context
 * React hooks
